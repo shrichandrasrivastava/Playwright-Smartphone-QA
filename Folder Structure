@@ -1,0 +1,16 @@
+playwright-qa-suite/
+├── playwright.config.ts
+├── package.json
+├── tsconfig.json
+├── pages/
+│   ├── LoginPage.ts
+│   ├── DeviceDashboardPage.ts
+│   └── OtaBuildPage.ts
+├── fixtures/
+│   └── test-fixtures.ts
+├── tests/
+│   ├── login.spec.ts
+│   ├── device-dashboard.spec.ts
+│   ├── ota-build-upload.spec.ts
+│   └── api-regression.spec.ts
+└── .github/workflows/playwright.yml
